@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <title>Feliz 2022 🎆</title>
+</head>
+
+<body>
+    <section id="container">
+        <nav class="navbar">
+            <ul>
+                <li><a href="index.html">Início</a></li>
+                <li><a href="#cores">Qual cor usar?</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+        <h2 id="ano"></h2>
+        <p id="contador"></p>
+    </section>
+    <script type="text/javascript" src="./script.js"></script>
+    <section id="container-secundary">
+        <a name="cores">
+            <h2>Entenda as cores da virada</h2>
+        </a>
+        <div class="panel">
+            <div id="yellow">Amarelo</div>
+            <div id="red">Vermelho</div>
+            <div id="white">Branco</div>
+            <div id="black">Preto</div>
+            <div id="blue">Azul</div>
+            <div id="grey">Prata</div>
+            <div id="green">Verde</div>
+            <div id="pink">Rosa</div>
+        </div>
+        <script type="text/javascript" src="./script-colors.js"></script>
+    </section>
+    <footer>
+        <form action="#">
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome">
+            <label for="mensagem">Mensagem:</label>
+            <textarea name="mensagem" id="mensagem" cols="30" rows="10"
+                placeholder="Deixe sua mensagem..." wrap="hard" maxlength="100"></textarea>
+            <button id="button">Enviar</button>
+        </form>
+        <div id="social-media">
+            <a name="contato">
+                <h2>Redes Sociais:</h2>
+            </a>
+            <ul class="social-network">
+                <li><a href="#"><img src="./assets/facebook.png" alt="Ícone do Facebook"
+                            class="icon-media"></a></li>
+                <li><a href="#"><img src="./assets/instagram.png" alt="Ícone do Instagram"
+                            class="icon-media"></a></li>
+                <li><a href="#"><img src="./assets/twitter.png" alt="Ícone do Twitter"
+                            class="icon-media"></a></li>
+                <li><a href="#"><img src="./assets/whatsapp.png" alt="Ícone do Whatsapp"
+                            class="icon-media"></a></li>
+            </ul>
+        </div>
+        <p><i>Todos os direitos reservados à </i> &copy; Renan Marques</p>
+    </footer>
+</body>
+
+</html>
