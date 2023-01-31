@@ -8,6 +8,6 @@
 
 ### Link da aplicação:
 
-https://countdownewyear.herokuapp.com/
+https://re04nan.github.io/countdown-newyear/
 
 #### by Renan Marques 🚀
